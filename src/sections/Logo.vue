@@ -9,7 +9,8 @@
   @import "../style/colors";
 
   img {
-    max-width: 300px;
+    width: 300px;
+    height: 248px;
   }
 
   h1 {
