@@ -26,10 +26,10 @@
   @import "style/main";
 
   .section {
-  @extend %padded;
+    @extend %padded;
 
-  &:nth-child(even) {
-    background-color: $color-main-bg;
+    &:nth-child(even) {
+      background-color: $color-main-bg;
+    }
   }
-}
 </style>
