@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <div class="project__title">
-      <slot name="header"></slot>
+      <slot name="image"></slot>
     </div>
     <div class="project__body">
       <slot></slot>
@@ -31,8 +31,13 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 
     .project__title {
-      h1, h2 {
-        margin-top: 0;
+      display: grid;
+      grid-template-columns: 1fr 250px 1fr;
+      margin-bottom: $spacing-lg;
+
+      img {
+        grid-column: 2;
+        width: 100%;
       }
     }
   }

@@ -4,7 +4,7 @@
 
     <div class="projects">
       <project>
-        <h2 slot="header">Deltares</h2>
+        <img slot="image" alt="logo Deltares" src="../assets/logo_deltares.jpg">
         <p>Deltares is een onafhankelijk toegepast kennisinstituut op het gebied van water en ondergrond.</p>
         <template slot="project">Delft3D-GeoTool</template>
         <template slot="rol">Scrum Master & Lead Developer</template>
@@ -20,7 +20,7 @@
       </project>
 
       <project>
-        <h2 slot="header">IKEA</h2>
+        <img slot="image" alt="logo IKEA" src="../assets/logo_ikea.jpg">
         <p>IKEA is verantwoordelijk voor het grootste print-proces ter wereld. IKEA werkt in deze hard aan duurzame
           oplossingen.</p>
         <template slot="project">Catalogue Supply Chain Dashboards</template>
@@ -34,7 +34,7 @@
       </project>
 
       <project>
-        <h2 slot="header">TU Delft</h2>
+        <img slot="image" alt="logo TU Delft" src="../assets/logo_tudelft.jpg">
         <p>3TU.Datacentrum biedt onderzoekers de kennis, ervaring en tools voor het delen en veilig bewaren van
           onderzoeksgegevens.</p>
         <template slot="project">Datacite & Zandmotordata</template>
@@ -49,7 +49,7 @@
       </project>
 
       <project>
-        <h2 slot="header">Knowledge Landscapes</h2>
+        <img slot="image" alt="logo Knowledge Landscapes" src="../assets/logo_klbv.jpg">
         <p>Knowledge Landscapes ontsluit het volledige kennispotentiaal van kennisorganisaties en bouwt de tools die dat
           mogelijk maken.</p>
         <template slot="project">Neva</template>
@@ -63,7 +63,7 @@
       </project>
 
       <project>
-        <h2 slot="header">Except</h2>
+        <img slot="image" alt="logo Except Integrated Sustainability" src="../assets/logo_except.jpg">
         <p>Except Integrated Sustainability ontwikkelt concepten en strategieën om bedrijven, steden en industrie te
           verduurzamen.</p>
         <template slot="project">Except Website</template>
@@ -77,7 +77,7 @@
       </project>
 
       <project>
-        <h2 slot="header">Springlab</h2>
+        <img slot="image" alt="logo Springlab" src="../assets/logo_springlab.jpg">
         <p>Springlab combineert creativiteit en vindingrijkheid met onderzoek en wetenschappelijke kennis om de wereld
           weer in beweging te krijgen.</p>
         <template slot="project">Actieve Stad</template>
