@@ -1,6 +1,6 @@
 <template>
   <div id="logo">
-    <img src="../assets/UL.svg">
+    <img alt="UPLINK logo" src="../assets/UL.svg">
     <h1>Up<span>Link</span></h1>
   </div>
 </template>
