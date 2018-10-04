@@ -1,0 +1,11 @@
+// spacing
+$spacing-xs: 5px;
+$spacing-sm: 10px;
+$spacing-md: 15px;
+$spacing-lg: 25px;
+$spacing-xl: 40px;
+
+%padded {
+  padding: $spacing-xl $spacing-lg;
+}
+

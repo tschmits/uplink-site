@@ -1,29 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <logo></logo>
+    <about-me></about-me>
+    <services></services>
+    <quote></quote>
+    <portfolio></portfolio>
+    <contact></contact>
   </div>
 </template>
 
+<script>
+  import AboutMe from '@/sections/AboutMe.vue'
+  import Contact from '@/sections/Contact.vue'
+  import Logo from '@/sections/Logo.vue'
+  import Portfolio from '@/sections/Portfolio.vue'
+  import Quote from '@/sections/Quote.vue'
+  import Services from '@/sections/Services.vue'
+
+  export default {
+    components: { AboutMe, Contact, Logo, Portfolio, Services, Quote, }
+  }
+</script>
+
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+  @import "style/main";
+
+  .section {
+    @extend %padded;
+
+    &:nth-child(even) {
+      background-color: $color-main-bg;
     }
   }
-}
 </style>
