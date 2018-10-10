@@ -4,6 +4,20 @@
 
     <div class="projects">
       <project>
+        <img slot="image" alt="logo StartMail" src="../assets/logo_startmail.png">
+        <p>StartMail is een beveiligde mail-dienst die het makkelijk maakt voor gebruikers om hun emails te versleutelen
+          met PGP.</p>
+        <template slot="project">Webmail Client</template>
+        <template slot="rol">Lead Front-End Developer</template>
+        <template slot="link">
+          <a target="_blank" href="https://www.startmail.com/">Website</a>
+        </template>
+        <template slot="reference">
+          <a target="_blank" href="https://www.linkedin.com/in/robert-b-a2137394/">Robert Beens</a>
+        </template>
+      </project>
+
+      <project>
         <img slot="image" alt="logo Deltares" src="../assets/logo_deltares.jpg">
         <p>Deltares is een onafhankelijk toegepast kennisinstituut op het gebied van water en ondergrond.</p>
         <template slot="project">Delft3D-GeoTool</template>
@@ -73,20 +87,6 @@
         </template>
         <template slot="reference">
           <a target="_blank" href="https://www.linkedin.com/in/tombosschaert/">Tom Bosschaert</a>
-        </template>
-      </project>
-
-      <project>
-        <img slot="image" alt="logo Springlab" src="../assets/logo_springlab.jpg">
-        <p>Springlab combineert creativiteit en vindingrijkheid met onderzoek en wetenschappelijke kennis om de wereld
-          weer in beweging te krijgen.</p>
-        <template slot="project">Actieve Stad</template>
-        <template slot="rol">Developer</template>
-        <template slot="link">
-          <a target="_blank" href="http://actievestad.nl/">De Actieve Stad</a>
-        </template>
-        <template slot="reference">
-          <a target="_blank" href="https://www.linkedin.com/in/jpdebeer/">Jan-Paul de Beer</a>
         </template>
       </project>
 

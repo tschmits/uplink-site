@@ -18,12 +18,22 @@
 
   .service {
     @extend %padded;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     display: grid;
-    grid-template-rows: auto auto;
     grid-template-columns: auto;
+    grid-template-rows: auto auto;
     margin-bottom: $spacing-md;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+    &:hover {
+      margin-top: -3px;
+      margin-bottom: $spacing-md + 3px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+
 
     .service__image {
       grid-row-start: 2;
