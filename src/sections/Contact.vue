@@ -19,7 +19,7 @@
         <dt>linkedin</dt>
         <dd><a href="https://www.linkedin.com/in/tijnschmits">tijnschmits</a></dd>
         <dt>CV</dt>
-        <dd><a href="../assets/CV_TSchmits-UPLINK_20161207.pdf">PDF (237K)</a></dd>
+        <dd><a href="../assets/CV_TSchmits-UPLINK_20190204.pdf" target="_blank">PDF (237K)</a></dd>
       </dl>
     </div>
   </page-section>
