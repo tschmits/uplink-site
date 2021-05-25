@@ -40,13 +40,14 @@
     }
 
     .project__title {
-      display: grid;
-      grid-template-columns: 1fr 250px 1fr;
+      width: 100%;
+      text-align: center;
       margin-bottom: $spacing-lg;
 
       img {
         grid-column: 2;
-        width: 100%;
+        max-height: 100px;
+        max-width: 100%;
       }
     }
   }

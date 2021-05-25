@@ -21,10 +21,10 @@
     <service>
       <img alt="ports on a laptop" slot="image" src="../assets/tech.jpg">
       <h2 slot="header">Technologie</h2>
-      <p><uplink/> specialiseert zich in technologiën die flexibel zijn en gericht zijn op de toekomst.</p>
+      <p><uplink/> specialiseert zich in technologieën die flexibel zijn en gericht zijn op de toekomst.</p>
       <p><uplink/> ontwikkelt complete webtools die schaalbaar zijn en draaien op de populaire browsers, platformen en devices.</p>
-      <p><uplink/> ontwikkelt back-ends in Python/Django, en beheert remote VM’s met ansible.</p>
-      <p><uplink/> ontwikkelt front-ends in Vue, en maakt unieke datavisualisaties met D3.js.</p>
+      <p><uplink/> ontwikkelt back-ends in Django &amp; Node en beheert environments middels Docker &amp; Kubernetes.</p>
+      <p><uplink/> ontwikkelt front-ends met hoge performance eisen in HTML5, PostCSS &amp; Vue3.</p>
       <p><uplink/> werkt met test-driven development en continuous delivery tools.</p>
     </service>
 

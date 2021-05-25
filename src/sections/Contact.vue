@@ -8,18 +8,12 @@
         <dd><a href="mailto:tschmits@gmail.com">tschmits@gmail.com</a></dd>
         <dt>telefoon</dt>
         <dd><a href="tel:+31628524585">+31 (0)6 28 52 45 85</a></dd>
-        <dt>adres</dt>
-        <dd>
-          Vlierboomstraat 239<br>
-          2564HJ Den Haag<br>
-          The Netherlands<br>
-        </dd>
       </dl>
       <dl>
         <dt>linkedin</dt>
         <dd><a href="https://www.linkedin.com/in/tijnschmits">tijnschmits</a></dd>
-        <dt>CV</dt>
-        <dd><a href="../assets/CV_TSchmits-UPLINK_20190204.pdf" target="_blank">PDF (237K)</a></dd>
+        <dt>regio</dt>
+        <dd>Haaglanden</dd>
       </dl>
     </div>
   </page-section>
