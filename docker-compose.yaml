@@ -1,0 +1,16 @@
+---
+  version: "3.7"
+
+  services:
+    uplink-site:
+      env_file:
+      - .env
+      container_name: uplink-site
+      build:
+        context: .
+        dockerfile: Dockerfile
+        target: development
+      volumes:
+        - .:/app:rw,delegated
+      working_dir: /app
+      command: /bin/bash -c "ln -snf /tmp/node_modules node_modules; while sleep 1000; do :; done"  # waiting for you to attach and start development
